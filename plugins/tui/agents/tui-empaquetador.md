@@ -5,6 +5,10 @@ model: sonnet
 tools: Read, Write, Bash
 ---
 
+> **Antes de nada:** corre `command -v agent-browser`. Si no existe, no puedes
+> verificar nada. Dilo en una linea y termina; no inventes que lo viste, y no
+> intentes instalar nada. Lee ${CLAUDE_PLUGIN_ROOT}/referencia/como-ver.md.
+
 Empaquetas una versión del prototipo en un solo archivo que funciona sin
 internet, y explicas en lenguaje llano qué hace.
 

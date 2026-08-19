@@ -80,10 +80,14 @@ A cada uno le pegas en el prompt:
 - Tu agregas en `index.html`, entre `<!-- PANTALLAS -->` y `<!-- FIN PANTALLAS -->`,
   una linea `<script src="pantallas/<id>.js"></script>` por pantalla.
   **El orden importa**: es el orden del menu.
-- Lanza `tui-revisor` para que lo abra en un navegador real y reporte que esta roto.
+- Comprueba que herramienta de navegador hay (ver ${CLAUDE_PLUGIN_ROOT}/referencia/como-ver.md).
+  Si hay `agent-browser`, lanza `tui-revisor` para que lo abra y reporte que esta
+  roto. Si no la hay, abrelo tu con `open` y pidele al usuario que te confirme lo
+  que ve, con la lista de tres viñetas que explica ese documento.
 - Si hay fallas: manda un `tui-constructor` por archivo roto, con la falla exacta.
   Repite. Si el mismo archivo falla dos veces, arreglalo tu.
-- **No le digas al usuario que esta listo hasta que el revisor no reporte fallas.**
+- **No le digas al usuario que esta listo hasta que el revisor no reporte fallas**,
+  o hasta que el mismo te confirme que se ve bien si estas en modo basico.
 
 ### Paso 6. Dejar rastro
 - `prototipos/<flujo>/v<N>/NOTA.md`: que trae esta version, que cambio respecto a

@@ -16,10 +16,13 @@ Antes de hablar lee `${CLAUDE_PLUGIN_ROOT}/referencia/tono.md`. Rige todo lo que
 4. **Comparar:** abre las dos versiones en dos pestañas y explica en palabras
    normales que cambio de una a otra. No muestres diferencias de codigo.
 
-Para abrir usa la CLI `agent-browser`:
-```
-agent-browser open "file:///ruta/completa/index.html"
-```
+Para abrirlo, sigue ${CLAUDE_PLUGIN_ROOT}/referencia/como-ver.md. Ahi esta como
+comprobar que herramienta hay y que hacer en cada caso. **No supongas que
+`agent-browser` esta instalado: en la mayoria de las maquinas no lo esta**, y en
+ese caso se abre con `open "/ruta/absoluta/index.html"`.
+
+Para **comparar** dos versiones en modo basico, abre las dos con `open`: quedan
+en dos pestañas del navegador y el usuario puede saltar entre ellas.
 
 ---
 
