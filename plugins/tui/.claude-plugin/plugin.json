@@ -1,0 +1,9 @@
+{
+  "name": "tui",
+  "version": "0.1.0",
+  "description": "Tengo Una Idea. Entrevista a fondo a quien tiene una idea de negocio, escribe el documento de alcance, y construye un prototipo que se abre con doble clic. Sin preguntas tecnicas.",
+  "author": {
+    "name": "Jorge Herrera",
+    "email": "ihanimal@gmail.com"
+  }
+}

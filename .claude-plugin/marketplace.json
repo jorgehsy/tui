@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tui",
+  "description": "Tengo Una Idea: herramienta para que equipos de producto y negocio conviertan una idea en un prototipo que se puede abrir y tocar.",
+  "owner": {
+    "name": "Jorge Simoes",
+    "email": "jorgehsy@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "tui",
+      "description": "Convierte una idea de negocio en un documento de alcance (BRD) y en un prototipo funcional que corre en tu propia computadora. No pide conocimientos tecnicos.",
+      "category": "productivity",
+      "source": "./plugins/tui"
+    }
+  ]
+}

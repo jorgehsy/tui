@@ -1,0 +1,13 @@
+/* Casi todo el estilo lo pone Tailwind desde las clases del HTML.
+   Aqui solo van los pocos detalles que Tailwind no cubre. */
+
+html { scroll-behavior: smooth; }
+
+/* Evita el parpadeo blanco mientras Tailwind termina de cargar. */
+#app:empty::after {
+  content: "Cargando...";
+  display: block;
+  padding: 2rem;
+  color: #94a3b8;
+  font-family: system-ui, sans-serif;
+}

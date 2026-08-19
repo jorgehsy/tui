@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prototipo</title>
+
+<!-- Librerias. No las toques. -->
+<script src="https://unpkg.com/preact@10.24.3/dist/preact.umd.js"></script>
+<script src="https://unpkg.com/preact@10.24.3/hooks/dist/hooks.umd.js"></script>
+<script src="https://unpkg.com/htm@3.1.1/dist/htm.umd.js"></script>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+<div id="app"></div>
+
+<!-- Orden de carga. No lo cambies. -->
+<script src="nucleo.js"></script>
+<script src="componentes.js"></script>
+<script src="datos.js"></script>
+<script src="semilla.js"></script>
+
+<!-- PANTALLAS: una linea por pantalla. Aqui es donde tui agrega las nuevas. -->
+<script src="pantallas/registros.js"></script>
+<!-- FIN PANTALLAS -->
+
+<script src="app.js"></script>
+</body>
+</html>
