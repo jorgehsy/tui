@@ -19,12 +19,14 @@ seguir exactamente donde quedaste, sin explicar nada de nuevo.
 
 ### Instalación
 
-Jorge te va a pasar la dirección del repositorio de `tui`. Con esa dirección en mano,
-abre Claude Code y, en el cuadro donde escribes tus mensajes, escribe este comando
-(reemplazando el marcador por la dirección que te dio Jorge):
+Antes de empezar, Jorge tiene que darte acceso al repositorio. El repositorio es
+privado: si no te ha dado acceso todavía, el primer comando va a fallar. Pídeselo.
+
+Con el acceso listo, abre Claude Code y, en el cuadro donde escribes tus mensajes,
+escribe este comando tal cual:
 
 ```bash
-/plugin marketplace add <URL-DEL-REPO>
+/plugin marketplace add jorgehsy/tui
 ```
 
 Cuando termine, en el mismo cuadro de mensajes escribe este segundo comando:
